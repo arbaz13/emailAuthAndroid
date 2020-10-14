@@ -1,0 +1,13 @@
+{
+  "projectName": "AutoHailingAap",
+  "version": "3.0",
+  "frontend": "android",
+  "android": {
+    "config": {
+      "ResDir": "aap/src/main/res"
+    }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
+}
