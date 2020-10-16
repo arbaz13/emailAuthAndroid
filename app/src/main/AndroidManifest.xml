@@ -9,8 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DriverLogin"></activity>
-        <activity android:name=".UserLogin" />
+        <activity android:name=".DriverRegistration"></activity>
+        <activity android:name=".DriverMainScreen" />
+        <activity
+            android:name=".UserRegistration"
+            android:label="Customer Registration" />
+        <activity android:name=".UserMainScreen" />
+        <activity
+            android:name=".UserForgotPassword"
+            android:label="Reset Password" />
+        <activity
+            android:name=".DriverLogin"
+            android:label="Driver Login" />
+        <activity
+            android:name=".UserLogin"
+            android:label="Customer Login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

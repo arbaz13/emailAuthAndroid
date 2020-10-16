@@ -14,17 +14,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView Name = (TextView) findViewById(R.id.Name);
+        TextView name = (TextView) findViewById(R.id.Name);
 
 
         // Set a click listener on that Name
-        Name.setOnClickListener(new View.OnClickListener() {
+        name.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the Text View(Name) is clicked on.
 
             @Override
             public void onClick(View view) {
-                Intent LoginSignup = new Intent(MainActivity.this, UserLogin.class);
-                startActivity(LoginSignup);
+                Intent main_intent = new Intent(MainActivity.this, UserLogin.class);
+                startActivity(main_intent);
             }
 
         });
