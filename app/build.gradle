@@ -33,8 +33,7 @@ android {
 }
 
 dependencies {
-    // Amplify core dependency
-    implementation 'com.amplifyframework:core:1.4.1'
+
 
     // Multidex dependency (if supporting min SDK < 21)
     implementation 'androidx.multidex:multidex:2.0.1'
@@ -52,9 +51,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     // ... typical dependencies
 
-    implementation 'com.amazonaws:aws-android-sdk-appsync:2.6.+'
-    implementation 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.0'
-    implementation 'org.eclipse.paho:org.eclipse.paho.android.service:1.1.1'
 
 
 }
