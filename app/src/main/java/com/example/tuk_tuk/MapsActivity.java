@@ -40,9 +40,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             double longitude = gps.getLongitude();
 
             // Add a marker in Sydney and move the camera
-            LatLng sydney = new LatLng(latitude,longitude);
-            mMap.addMarker(new MarkerOptions().position(sydney).title("Your Location"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+            LatLng current = new LatLng(latitude,longitude);
+            mMap.addMarker(new MarkerOptions().position(current).title("Your Location"));
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(current));
         }else{
             // can't get location
             // GPS or Network is not enabled
