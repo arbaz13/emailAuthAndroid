@@ -44,7 +44,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             LatLng locat = new LatLng(latitude,longitude);
             mMap.addMarker(new MarkerOptions().position(locat).title("Your Location"));
             mMap.moveCamera(CameraUpdateFactory.newLatLng(locat));
-            mMap.getMaxZoomLevel();
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(locat,14));
         }else{
             // can't get location
             // GPS or Network is not enabled
@@ -71,24 +71,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
             }
         });
-        mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
-                                         @Override
-                                         public void onMarkerDragStart(Marker marker) {
-
-                                         }
-
-                                         @Override
-                                         public void onMarkerDrag(Marker marker) {
-
-                                         }
-
-                                         @Override
-                                         public void onMarkerDragEnd(Marker marker) {
-
-                                         }
-                                     }
-        );
-
-    }
-
 }
