@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "421789669241",
+    "firebase_url": "https://riderapp-4f115.firebaseio.com",
+    "project_id": "riderapp-4f115",
+    "storage_bucket": "riderapp-4f115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421789669241:android:9826e8296a78f8b24441a8",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421789669241-p8sq153ap0g8kobf9kcqt1njs30u28bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjdyDmTrIvxgmhcsGlzjezG3x8kCcDxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421789669241-p8sq153ap0g8kobf9kcqt1njs30u28bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
